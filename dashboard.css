@@ -1,0 +1,68 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: url('books4.jpg');
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+
+/* Dashboard Container */
+.dashboard-container {
+    background: #fff; /* White background */
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    text-align: center;
+    width: 90%;
+    max-width: 800px;
+}
+
+h1 {
+    color: #333; /* Dark text for contrast */
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+/* Navigation Links */
+nav {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    background: #f9f9f9; /* Light gray background */
+    color: #333; /* Dark text */
+    padding: 15px 20px;
+    border-radius: 8px;
+    font-size: 18px;
+    transition: background 0.3s ease, transform 0.3s ease;
+    border: 1px solid #ddd; /* Light border */
+}
+
+nav a:hover {
+    background: #e0e0e0; /* Slightly darker on hover */
+    transform: translateY(-3px);
+}
+
+/* Logout Button */
+.logout-btn {
+    background: #ffe6e6; /* Light red background */
+    color: #ff4d4d; /* Red text */
+    border: 1px solid #ffcccc; /* Light red border */
+}
+
+.logout-btn:hover {
+    background: #ffcccc; /* Darker red on hover */
+}   

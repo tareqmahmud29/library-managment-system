@@ -1,0 +1,154 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: url('books4.jpg');
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+
+/* Container */
+.container {
+    background: #fff; /* White background */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    text-align: center;
+    width: 90%;
+    max-width: 1000px;
+    overflow-y: auto;
+    max-height: 90vh;
+}
+
+h1, h2 {
+    color: #333; /* Dark text for contrast */
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+/* Back Button */
+.back-btn {
+    display: inline-block;
+    text-decoration: none;
+    background: #f9f9f9; /* Light gray background */
+    color: #333; /* Dark text */
+    padding: 10px 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    transition: background 0.3s ease, transform 0.3s ease;
+    border: 1px solid #ddd; /* Light border */
+}
+
+.back-btn:hover {
+    background: #e0e0e0; /* Slightly darker on hover */
+    transform: translateY(-3px);
+}
+
+/* Forms */
+.add-borrower-form {
+    margin-bottom: 30px;
+}
+
+input, button {
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid #ddd; /* Light border */
+    font-size: 16px;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+input {
+    background: #f9f9f9; /* Light gray background */
+    color: #333; /* Dark text */
+}
+
+input::placeholder {
+    color: #999; /* Light placeholder text */
+}
+
+button {
+    background: #333; /* Dark background */
+    color: #fff; /* White text */
+    cursor: pointer;
+}
+
+button:hover {
+    background: #555; /* Darker on hover */
+    transform: translateY(-3px);
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: left;
+    color: #333; /* Dark text */
+    border-bottom: 1px solid #ddd; /* Light border */
+}
+
+table th {
+    background: #f9f9f9; /* Light gray background for headers */
+}
+
+/* Action Buttons */
+.edit-btn, .delete-btn {
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.edit-btn {
+    color: #007bff; /* Blue for edit */
+}
+
+.edit-btn:hover {
+    color: #0056b3; /* Darker blue on hover */
+}
+
+.delete-btn {
+    color: #ff4d4d; /* Red for delete */
+}
+
+.delete-btn:hover {
+    color: #ff1a1a; /* Brighter red on hover */
+}
+/* Add this to your existing CSS */
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    background: #f9f9f9;
+    color: #333;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
